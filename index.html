@@ -10,33 +10,45 @@
 </head>
 <body>
 
-    <div class="container custcontainter">
-        <div class="row">
-            <div class="col-sm-4" id="computer-number"></div>
-            <div class="col-sm-4" id="count"></div>
+    <div class="container custcontainer">
+        <div class="row text-center">
+            <h1 class="col-sm-12">Crystal Collector!</h1>
         </div>
-        <div class="row">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-6" id="computer-number"></div>
+            <div class="col-sm-6" id="count">0</div>
+        </div>
+        <div class="row text-center">
 
-            <button class="col-sm-2" id="crystal-one">
+            <button class="col-sm-3" id="crystal-one">
                 <img src="assets/images/crystal-one.gif" width="100px" height="120px">
             </button>
 
-            <button class="col-sm-2" id="crystal-two">
+            <button class="col-sm-3" id="crystal-two">
                 <img src="assets/images/crystal-one.gif" width="100px" height="120px">
             </button>
 
-            <button class="col-sm-2" id="crystal-three">
+            <button class="col-sm-3" id="crystal-three">
                 <img src="assets/images/crystal-one.gif" width="100px" height="120px">
             </button>
 
-            <button class="col-sm-2" id="crystal-four">
+            <button class="col-sm-3" id="crystal-four">
                 <img src="assets/images/crystal-one.gif" width="100px" height="120px">
             </button>
 
         </div>
-        <div class="row">
-            <div class="col-sm-4" id="wins">Wins: 0</div>
-            <div class="col-sm-4" id="losses">Losses: 0</div>
+        <div class="row text-center">
+            <div class="col-sm-6" id="wins">Wins: 0</div>
+            <div class="col-sm-6" id="losses">Losses: 0</div>
         </div>
     </div>
 

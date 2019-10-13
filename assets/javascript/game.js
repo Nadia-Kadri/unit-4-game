@@ -48,14 +48,14 @@ $(document).ready(function() {
 
         if (count > target) {
             losses++
-            $("#losses").text(losses)
+            $("#losses").text(`Losses: ${losses}`)
             console.log(`You lose! Wins: ${wins} Losses: ${losses}`)
             reset()
         }
 
         if (count === target) {
             wins++
-            $("#wins").text(wins)
+            $("#wins").text(`Wins: ${wins}`)
             console.log(`You win! Wins: ${wins} Losses: ${losses}`)
             reset()
         }
@@ -65,8 +65,8 @@ $(document).ready(function() {
         count = 0;
         $("#count").text(count);
 
-        $("#wins").text(wins)
-        $("#losses").text(losses)
+        $("#wins").text(`Wins: ${wins}`)
+        $("#losses").text(`Losses: ${losses}`)
 
         target = Math.floor(Math.random() * ((120 - 19) + 1)) + 19;
 
