@@ -1,10 +1,24 @@
-/* body {
-    background-image: url(../images/annie-spratt-epcsn8Ed8kY-unsplash.jpg);
-} */
+body {
+    background-image: url(../images/collins-lesulie-LjvR6xdSxVA-unsplash.jpg);
+}
 
 .custcontainer {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: white;
+    background: transparent;
     padding: 20px;
+    color: white;
+}
+
+#computer-number, #count {
+    font-size: 80px;
+}
+
+#wins, #losses {
+    font-size: 50px;
+}
+
+button {
+    background: transparent;
+    border: transparent;
 }
